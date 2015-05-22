@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My first page</title>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color: #666;
+}
+a:hover{
+	color:#99CCCC;
+	font-weight:bold;
+}
+#wrap{
+	width:960px;
+	margin:0 auto;
+}
+#header{
+	width:100%;
+	overflow:hidden;
+}
+.logo{
+	width:100%;
+	height:90px;
+	line-height:90px;
+	background: #FCC;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:30px;
+	text-indent:1em;
+}
+.nav li{
+	float:left;
+	margin:6px 20px 10px 10px;	
+}
+.nav li a{
+	font-size:20px;
+	color:#999999;
+	font-weight:normal;
+}
+.nav a:hover{
+	color:#99CCCC;
+}
+.sidebar{
+	width:180px;
+	float:left;
+}
+.sidebar dt{
+	width:150px;
+	background:#FFCCCC;
+	padding:5px 0;
+	text-indent:1em;
+	margin:5px 0;
+}
+.sidebar dt a{
+	color: #C33;
+	font-size:14px;	
+	font-weight:bold;
+}
+.sidebar dd{
+	line-height:2em;
+	text-indent:0.5em;
+}
+#footer{
+	width:100%;
+	height:30px;	
+}
+#footer p{
+	font-family:"微软雅黑";
+	font-size:12px;
+	text-align:center;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background:#FCC;
+}
+.content{
+	margin:0 0 10px 20px;
+	width:750px;
+	float:left;
+}
+h3{
+	border-bottom:1px #999999 dotted;
+	font-weight:normal;
+	font-size:16px;
+	color:#CC0033;
+	padding:0 0 5px 0;
+	margin:10px 0;
+}
+p{
+	line-height:1.8em;
+	text-indent:2em;
+}
+.clear{
+	clear:both;
+}
+.personimg{
+	width:130px;
+	height:120px;
+	float:left;
+	margin:0 15px 0 15px;
+	border:0.5px #CCC solid;
+}
+.albumlist{
+	width:100%;
+}
+.albumlist ul{
+	width:100%;
+	/*margin:0 auto;*/
+}
+.albumlist img{
+	 width:80px;
+	 height:80px;
+}
+.albumlist li{
+	list-style:none;
+	margin:0 5px;
+	padding:0 5px;
+	float:left;
+	border-right:dotted 1px;
+	border-bottom:dotted #999999 1px;
+}
+
+</style>
+</head>
+
+<body>
+<div id="wrap">
+<div id="header">
+	<div class="logo">
+    	Bob Dylan's Page
+     </div>
+    <div class="nav">
+    	<ul>
+        	<li><a href="#">Home</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>	
+    </div>
+</div>
+<div id="mainbody">
+	<div class="sidebar">
+       <dl>
+        <dt class="current"><a href="#">About Myself</a></dt>
+        <dd><a href="#">seft-introduction</a></dd>
+        <dd><a href="#">my Photos</a></dd>
+        </dl>
+        
+        <dl>
+        <dt class="current"><a href="#">Music</a></dt>
+        <dd><a href="#">album</a></dd>
+        <dd><a href="#">live</a></dd>
+        </dl>
+        
+       <dl>
+        <dt class="current"><a href="#">Life story</a></dt>
+        <dd><a href="#">blogs</a></dd>
+        <dd><a href="#">photos</a></dd>
+        </dl>
+    </div>
+    <div class="content">
+      <div class="text">
+         <h3>Bob dylan</h3>
+         <img src="images/12994697282542.jpg" class="personimg" />
+         <p>Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, artist, and writer. He has been influential in popular music and culture for more than five decades. Much of his most celebrated work dates from the 1960s when his songs chronicled social unrest, although Dylan repudiated suggestions from journalists that he was a spokesman for his generation.</p>
+         <p>Dylan's lyrics have incorporated various political, social, philosophical, and literary influences. They defied existing pop music conventions and appealed to the burgeoning counterculture. Initially inspired by the performances of Little Richard, and the songwriting of Woody Guthrie, Robert Johnson and Hank Williams, Dylan has amplified and personalized musical genres. His recording career, spanning 50 years, has explored the traditions in American song—from folk, blues, and country to gospel, rock and roll.</p>
+      </div>
+      <div class="albumlist">
+       <h3>Album List</h3> 
+
+       	  <ul>
+             <li><img src="images/1962 Bob Dylan.jpg" /></li>
+             <li><img src="images/1963 The freewheelin' Bob Dylan.jpg" /></li>
+             <li><img src="images/1964 Another Side of Bob Dylan.jpg"/></li>
+             <li><img src="images/1964 The Times They Are a-Changin'.jpg" /></li>
+             <li><img src="images/1965 Bringing It All Back Home.jpg"/></li>
+          </ul> 
+          <div class="clear"></div>
+      </div><!--albumlist-->
+  </div><!--content-->
+</div>
+<div class="clear"></div>
+<div id="footer">
+   <p>版权所有</p>
+</div>
+</div>
+</body>
+</html>
